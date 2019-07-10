@@ -1,0 +1,3 @@
+<target name="package" depends="conditions,webapp,dataimporter,jdbcdataimporter,zendesk,rserve,mongodb,webservice,connectores,hive,rabbitmq,eventhub,kafka,json,websocket,log,cassandra,datascheduler,db">
+
+<target name="package" depends="conditions,webapp,jdbcdataimporter,db,zendesk,rserve,mongodb,webservice,connectores,hive,rabbitmq,eventhub,kafka,json,websocket,log,cassandra,dataimporter,datascheduler"> -Orgnal
